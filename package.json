@@ -1,13 +1,12 @@
 {
   "name": "html-to-og",
   "type": "module",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Generate 1200x630 Open Graph images from HTML templates using Puppeteer",
   "author": "fullmetalbrackets",
   "license": "MIT",
   "main": "html-to-og.mjs",
   "scripts": {
-    "generate": "node html-to-og.mjs",
     "clean": "rm -f output/*.png",
     "start": "node html-to-og.mjs"
   },

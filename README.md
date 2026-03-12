@@ -22,12 +22,6 @@ When ready to generate an image, run:
 npm start
 ```
 
-or
-
-```bash
-npm run generate
-```
-
 Generated images are saved to `output/` as `og-card1.png`, `og-card2.png`, etc. Each run creates a new numbered file without overwriting previous versions.
 
 To clear out the `output/` directory of all PNGs, run:
@@ -44,6 +38,7 @@ This is the OG image generated for [my own site](https://fullmetalbrackets.com) 
 ## How It Works
 
 The script uses Puppeteer to:
+
 1. Load your HTML template in a headless browser
 2. Set viewport to 1200x630 (Open Graph standard size)
 3. Capture a screenshot of the `.og-card` element
