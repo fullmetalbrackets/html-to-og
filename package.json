@@ -1,0 +1,37 @@
+{
+  "name": "html-to-og",
+  "type": "module",
+  "version": "0.0.1",
+  "description": "Generate 1200x630 Open Graph images from HTML templates using Puppeteer",
+  "author": "fullmetalbrackets",
+  "license": "MIT",
+  "main": "html-to-og.mjs",
+  "scripts": {
+    "generate": "node html-to-og.mjs",
+    "clean": "rm -f output/*.png",
+    "start": "node html-to-og.mjs"
+  },
+  "keywords": [
+    "opengraph",
+    "og-image",
+    "social-media",
+    "screenshot",
+    "puppeteer",
+    "meta-tags",
+    "image-generator"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fullmetalbrackets/html-to-og"
+  },
+  "bugs": {
+    "url": "https://github.com/fullmetalbrackets/html-to-og/issues"
+  },
+  "homepage": "https://github.com/fullmetalbrackets/html-to-og#readme",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "puppeteer": "^23.0.0"
+  }
+}
